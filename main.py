@@ -12,6 +12,6 @@ for x in mylist:
     count +=1
     print(str(count) + '/' + str(len(mylist)) + ' successfully converted')
 
-    for page in pages:
-        page.save('C:\\Users\\Anonymous\\OneDrive\\Desktop\\output\\' + x[0:-4]+'.png', 'PNG')
+
+    pages[0].save('C:\\Users\\Anonymous\\OneDrive\\Desktop\\output\\' + x[0:-4]+'.jpg', 'JPEG')
 print("Program Terminated")
